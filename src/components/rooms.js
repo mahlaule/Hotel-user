@@ -18,8 +18,8 @@ function Booking(){
     const [types, setTypes] = useState('');
 
 
-    const itemsref = collection(db,"addRoom");
-    const refBooking = collection(db, "Booking")
+    const itemsref = collection(db,"Addroom");
+    const refBooking = collection(db, "book")
 
 
     const getItems = async () =>{

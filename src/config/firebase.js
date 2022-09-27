@@ -9,15 +9,16 @@ import{getFirestore} from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCA8Di2nES1ZAwLOf8hjI_ojWoqVeJWzjs",
-  authDomain: "hotel-application-16dc8.firebaseapp.com",
-  projectId: "hotel-application-16dc8",
-  storageBucket: "hotel-application-16dc8.appspot.com",
-  messagingSenderId: "693955779812",
-  appId: "1:693955779812:web:cff542ea7be2558bd760f1",
-  measurementId: "G-XDKZXK99E5"
+  apiKey: "AIzaSyDx-6KTRJNnU2NuJ9bFzLz3xbEm4tvkI80",
+  authDomain: "hotel-app-72314.firebaseapp.com",
+  projectId: "hotel-app-72314",
+  storageBucket: "hotel-app-72314.appspot.com",
+  messagingSenderId: "693495632066",
+  appId: "1:693495632066:web:8fcd26914122486c6e2b5b"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
